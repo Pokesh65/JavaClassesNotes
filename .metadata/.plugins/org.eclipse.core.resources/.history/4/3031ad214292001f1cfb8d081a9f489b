@@ -1,0 +1,68 @@
+package InstaConcepts;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class Collection9_methods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<String> li=new ArrayList<String>();
+	
+	// Add elements 
+		li.add("pokesh");
+		li.add("Lokesh");
+		li.add("Rakesh");
+		li.add("Mothis");
+		li.add("ganesh");
+		li.add("Gokul");
+		li.add("Sujith");
+		System.out.println(li);
+		
+	// Add elements by index
+		li.add(1,"Malliga");
+		System.out.println(li);
+		
+	// Remove element
+		li.remove("Lokesh");
+		System.out.println(li);
+		
+	// Remove element by index
+		li.remove(4);
+		System.out.println(li);
+		
+	// Get element
+		System.out.println(li.get(1));
+		
+	// Set element
+		li.set(1,"Deepi");
+		System.out.println(li);
+		
+	// Check if contains
+		System.out.println(li.contains("Rakesh"));
+		
+	// Size of collection
+		System.out.println(li.size());
+		
+	// Check if empty
+		System.out.println(li.isEmpty());
+		
+	// Iterator over collection
+		System.out.println("\n....Collection values....");
+		for(String v:li){
+			System.out.println(v);
+		}
+		
+	// Iterator
+		System.out.println("\nIterator");
+		//iterator will print the value in sorted order
+//		Iterator<String> ili=li.iterator();
+//		while(ili.hasNext()) {
+//			System.out.print(ili+" ");
+//		}
+
+	}
+
+}

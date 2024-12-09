@@ -1,0 +1,13 @@
+package ProblemSolving;
+
+public class Matrix {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int one[][]= {{2,4},{4,6}};
+		int two[][]= {{2,4},{4,6}};
+
+	}
+
+}

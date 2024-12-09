@@ -1,0 +1,20 @@
+package ProblemSolving;
+
+public class Jump {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a[]={2,3,4,2,7,1};
+		int indx=0;
+		int limit=a.length;
+		int remainingJump=a.length;
+		
+		while(indx<limit){
+			if(a[indx]>limit){
+				System.out.println("Out Of Range");
+			}
+		}
+
+	}
+
+}

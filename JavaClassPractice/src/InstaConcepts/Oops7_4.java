@@ -156,8 +156,9 @@ package InstaConcepts;
 // Method Overriding in Java
 			dog c=new cow();
 			dog d=new dog();
-			d.sound();
 			c.sound();
+			d.sound();
+			
 			
 //	Abstract class 
 	//		we can't instantiate the abstract class but

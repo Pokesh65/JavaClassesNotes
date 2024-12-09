@@ -88,7 +88,7 @@ public class ExceptionHandling8 {
 		// The catch statement allows you to define a block of code to be executed,
 		// if an error occurs in the try block.
 
-		String name[] = { "Pokesh", "Dinesh", "Kumar", "Rakesh" };
+		String name[] = { "Pokesh", "Dinesh", "Kumar", "Rakesh","Ganesh" };
 
 		try {
 			// try methods will run the code once if any error occurs it will
@@ -103,7 +103,7 @@ public class ExceptionHandling8 {
 		}
 
 //	Multiple Catch Blocks
-		System.out.println("Multiple Catch Blocks...");
+		System.out.println("\nMultiple Catch Blocks...");
 		// the multiple try catch exception
 		// Based on the exception type we need to give Exception in each Catch block
 		//
@@ -114,15 +114,17 @@ public class ExceptionHandling8 {
 		try {
 			j = 18 / i;
 //			System.out.println(nick.length());
-			System.out.println(avalue[5]);
+			System.out.println(avalue[9]);
 
 		} catch (ArithmeticException e) {
 			System.out.println("Can't Divide By " + i + " : " + e);
 			
 		} catch (NullPointerException np) {
 			System.out.println("String Doesn't have Values :" + np);
+			
 		} catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println("Array Length is shorter here : "+e);
+			
 		}
 		// this exception is a parent class of all exception
 		// Exception can handle all the Error Which is java throws errors
@@ -133,11 +135,11 @@ public class ExceptionHandling8 {
 		}
 
 //	try catch finally
-		System.out.println("try catch finally...");
+		System.out.println("\ntry catch finally...");
 		// the finally will always print even if the try block run or catch block run
 		int div = 0;
 		try {
-			div = 18 / 4;
+			div = 18 / 2;
 			System.out.println("The Divided value Will be : "+div);
 			
 		} catch (Exception e) {
@@ -154,7 +156,7 @@ public class ExceptionHandling8 {
 		}
 
 //	try with resource
-		System.out.println("try with resource");
+		System.out.println("\ntry with resource");
 		// In Java, the Try-with-resources statement is a try statement that
 		// declares one or more resources in it. A resource is an object that
 		// must be closed once your program is done using it. For example, a
@@ -182,10 +184,10 @@ public class ExceptionHandling8 {
 //			System.out.println("The Number You Entered : "+num);
 //			
 //			
-//		} 
+//		}
 
 //	Throw Exception
-		System.out.println("Throw Exception...");
+		System.out.println("\nThrow Exception...");
 		// In Java, Exception Handling is one of the effective means to handle
 		// runtime errors so that the regular flow of the application can be
 		// preserved. Java Exception Handling is a mechanism to handle runtime
@@ -219,7 +221,7 @@ public class ExceptionHandling8 {
 		}
 
 //	Throws 
-		System.out.println("....Throws...");
+		System.out.println("\n....Throws...");
 		// In Java, the throws keyword is used in a method's
 		// signature to declare that the method can throw
 		// one or more checked exceptions. It indicates to the
@@ -234,9 +236,10 @@ public class ExceptionHandling8 {
 			System.out.println("Can't Divided By zeroooo :"+e);
 
 		}
+		
 
 //	Custom Exception
-		System.out.println("Custom Exception...");
+		System.out.println("\nCustom Exception...");
 		try {
 			int ceAge = 20;
 			if (ceAge < 30) {
@@ -295,7 +298,7 @@ public class ExceptionHandling8 {
 		}
 
 //	Catch Multiple Exceptions
-		System.out.println("Catch Multiple Exceptions...");
+		System.out.println("\nCatch Multiple Exceptions...");
 		// syntax catch (Exception1 | Exception2 | Exception3 e){
 		// System.out.println(e);
 		// }

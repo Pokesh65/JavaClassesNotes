@@ -11,7 +11,10 @@ public class BasicSyntaxAndDataType {
 	public static void main(String[] args) {
 		
 //		Formatted Print
-		System.out.printf("%.2f",3.122344);
+		double ac=3.122344;
+		System.out.printf("Hii %.2f",ac);
+		System.out.printf("Hello %d",638353);
+		System.out.printf("Gokul %s","kaka is couple");
 		System.out.println("\n");
 		
 //		constant Declaration
@@ -69,7 +72,7 @@ public class BasicSyntaxAndDataType {
 		    
 //		Octal literal
 		    System.out.println("\nOctal literal");
-		    int octal=012;
+		    int octal=013;
 		    System.out.println("Octal :"+octal);
 		
 //		hexadecimal literal
@@ -80,7 +83,7 @@ public class BasicSyntaxAndDataType {
 		    
 //		Scientific Notation
 		    System.out.println("\nScientific Notation");
-		    double sci=1.23231e1;
+		    double sci=1.23231e2;
 		    System.out.println("Scientific :"+sci);
 
 	}	

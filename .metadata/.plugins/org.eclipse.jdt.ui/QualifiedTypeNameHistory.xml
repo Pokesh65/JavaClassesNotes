@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
-    <fullyQualifiedTypeName name="InstaConcepts.ExceptionHandling"/>
-    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-    <fullyQualifiedTypeName name="InstaConcepts.multiple"/>
-    <fullyQualifiedTypeName name="java.security.DrbgParameters.NextBytes"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="InstaConcepts.AgeNotVAlidException"/>
-    <fullyQualifiedTypeName name="java.lang.Throwable"/>
-    <fullyQualifiedTypeName name="InstaConcepts.chained"/>
     <fullyQualifiedTypeName name="InstaConcepts.AssertDemo"/>
     <fullyQualifiedTypeName name="InstaConcepts.Collections9"/>
     <fullyQualifiedTypeName name="java.util.TreeSet"/>
@@ -26,13 +17,11 @@
     <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
     <fullyQualifiedTypeName name="java.util.Vector"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.ListIterator"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.awt.font.GlyphVector"/>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="InstaConcepts.Thread_Concept"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
@@ -44,9 +33,7 @@
     <fullyQualifiedTypeName name="InstaConcepts.bus"/>
     <fullyQualifiedTypeName name="InstaConcepts.train"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="InstaConcepts.Oops7_1"/>
     <fullyQualifiedTypeName name="InstaConcepts.Person1"/>
     <fullyQualifiedTypeName name="InstaConcepts.Student12"/>
@@ -55,9 +42,22 @@
     <fullyQualifiedTypeName name="InstaConcepts.nested.nesinner"/>
     <fullyQualifiedTypeName name="InstaConcepts.nested.nesinner.nesinner2"/>
     <fullyQualifiedTypeName name="OwnPracticeCode.Swap"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="ProblemSolving.ReverseMethods"/>
+    <fullyQualifiedTypeName name="InstaConcepts.Singleton"/>
+    <fullyQualifiedTypeName name="ProblemSolving.Sorted"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="javax.annotation.processing.SupportedSourceVersion"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="InstaConcepts.Singleton"/>
+    <fullyQualifiedTypeName name="ProblemSolving.StringFirstLetterToChar"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="InstaConcepts.Strings5"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
 </qualifiedTypeNameHistroy>

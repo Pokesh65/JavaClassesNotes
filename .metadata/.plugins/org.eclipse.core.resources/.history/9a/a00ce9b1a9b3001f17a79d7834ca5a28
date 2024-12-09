@@ -1,0 +1,10 @@
+package ProblemSolving.StartPattern;
+
+public class StartAntChar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

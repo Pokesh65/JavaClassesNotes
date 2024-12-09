@@ -227,9 +227,11 @@ public class Strings5 {
 //		,we need to give String name Which you want to show here inside the fomatted String
 		String StrFor="Welcome Home Malli";
 		String StrFor1="Hey Pokesh Where Is Her";
-//		String forme=String.format("My girl Malli %s",StrFor);
+		String forme1=String.format("My girl Malli %s",StrFor1);
 		String forme=String.format("My girl Malli %s",StrFor);
 		System.out.println("Fomatted String : "+forme);
+		System.out.println(forme1);
+		System.out.println(StrFor1);
 		
 //		 // Concatenation of two strings
 //        String s

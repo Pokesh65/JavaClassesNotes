@@ -1,0 +1,18 @@
+package ProblemSolving;
+
+public class PrefixMatch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String S[]= {"Flower","Flow","Floor"};
+		String Firstword=S[0];
+		String Res="";
+		
+		for (int i = 0; i < Firstword.length(); i++) {
+			
+		}
+
+	}
+
+}

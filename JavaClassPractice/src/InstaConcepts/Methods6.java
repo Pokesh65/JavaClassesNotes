@@ -1,5 +1,6 @@
 package InstaConcepts;
 
+import java.util.Arrays;
 
 //Abstract Methods
 		//	in object oriented programming, abstraction is defined as hiding the unnecessary 
@@ -100,11 +101,13 @@ public class Methods6 extends AbsOne {
 		//	The parameter int ... a is the key part of this method. The ... is the syntax for varargs,
 		//	which means that this method can accept zero or more int arguments.
 	public int sum(int...num) {
+		int asum=Arrays.stream(num).sum();
 		 for(int a:num) {
 			 System.out.println("Your Variable value is : "+a);
+			 
 		 }
-		
-		 return 10;
+		System.out.println(asum);
+		 return asum;
 	}
 
 //	Recursive Methods
@@ -126,6 +129,7 @@ public class Methods6 extends AbsOne {
 		//In Java, default parameters are a powerful feature that allows developers to
 		//define default values for method parameters. This can be useful when a method 
 		//has a large number of parameters, and some of them are not always required.
+
 //	public void greed(String na="world"){
 //		System.out.println(na);
 //	}
@@ -212,7 +216,7 @@ public class Methods6 extends AbsOne {
 		System.out.println("String methods : "+svalue);
 		
 // 	Variable Arguments
-//		When calling this method, you can pass any number of integer arguments (including zero).
+//		When calling this method, you can pass n number of integer arguments (including zero).
 //		These arguments will be automatically grouped into an array inside the method.
 		ad.sum(10,20,30,40,50); 
 		System.out.println(ad.sum()); //it will print the return type value

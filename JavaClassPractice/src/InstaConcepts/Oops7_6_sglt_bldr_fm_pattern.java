@@ -59,7 +59,6 @@ class Singleton{
 	private String Processor;
 	private int Battery;
 	
-	
 
 	public Phone(String phoneModel, String os, int ram, String processor, int battery) {
 		super();
@@ -70,7 +69,6 @@ class Singleton{
 		Battery = battery;
 	}
 
-	
 
 
 	@Override
@@ -125,19 +123,19 @@ class PhoneBuilder{
 public class Oops7_6_sglt_bldr_fm_pattern {
 
 	public static void main(String[] args) {
-		
+		 
 //	Singleton Class & Singleton patter
 		//	if your allowing to create only one instance of a class mean singleton
 		
 	//	Singleton slt=new Singleton();
 		Singleton slt;
 		slt=Singleton.getInstance();
-
+		
 		//	it's not allow to create another instance of a class and new instance
 		// 	we are allow to create only one instance
 		//	it will not show another instance value
-		slt=Singleton.getInstance();
-		slt=Singleton.getInstance();
+		Singleton slt1=Singleton.getInstance();
+//		slt=Singleton.getInstance();
 		 
 		
 
@@ -145,7 +143,7 @@ public class Oops7_6_sglt_bldr_fm_pattern {
 		//	using Builder pattern we can pass any parameter in anySequence 
 		//	and we can pass less parameters also here this will not show error
 		//	this will show null in unpassed parameter
-		Phone PB=new PhoneBuilder().setBattery(5000).setOs("Android").setRam(16).getPhone();
+		Phone PB=new PhoneBuilder().setBattery(5000).setOs("Android").setProcessor("Snap Dragon").setRam(16).getPhone();
 		System.out.println(PB);
 		
 

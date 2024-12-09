@@ -1,0 +1,23 @@
+package ProblemSolving;
+
+import java.util.Scanner;
+
+public class StringFirstLetterToChar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner scan=new Scanner(System.in);
+		
+		String line=scan.nextLine();
+
+		String []letter=line.split(line);
+		
+		
+		for( String word:letter){
+			  
+			System.out.println(word);
+		}
+	}
+
+}

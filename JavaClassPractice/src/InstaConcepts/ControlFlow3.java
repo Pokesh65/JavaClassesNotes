@@ -136,7 +136,7 @@ public class ControlFlow3 {
 //		Outer Loop Labled Continue
 		System.out.println("\n...Outer Loop Labled Continue...");
 		for(int i=0;i<5;i++) {
-			System.out.println("the I :"+i);
+			System.out.println("the I value:"+i);
 			for(int j=0;j<5;j++) {
 				if(j==3) {
 					

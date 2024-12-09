@@ -43,10 +43,11 @@ public class Arrays4 {
 		System.out.println("\n...Two Dimensional Array...");
 //		the first[]represents the row of multi array
 //		and the Second[] represents the coloum of multi array
+		
 		int ATD [][] = new int[3][4];
 		
 //		now i'm using math.random to assign random value to this array
-		for (int i = 0; i < 3; i++) {
+		for (int i = 0; i < 3; i++) { 
 			for (int j = 0; j < 4; j++) {
 				ATD[i][j]=(int)(Math.random()*10);
 				System.out.println(ATD[i][j]);
@@ -225,7 +226,7 @@ public class Arrays4 {
 //		parallel sort-merge sorting algorithm. It breaks the array into 
 //		sub-arrays that are themselves sorted and then merged.
 		int psa[]= {3,4,2,1,4,5,7,68,7,45,3,8,98,98,454,2,3,1,656,8,98,76,6};
-		Arrays.sort(psa);
+		Arrays.parallelSort(psa);
 		System.out.println(Arrays.toString(psa));
 		
 //Stream From Array
@@ -239,6 +240,7 @@ public class Arrays4 {
 	        Stream<String> nameStream = Arrays.stream(names);
 	        // Perform an operation on the stream (e.g., printing each name)
 	        nameStream.forEach(System.out::println);
+	        
 	   
 
 //Find Max value in Array

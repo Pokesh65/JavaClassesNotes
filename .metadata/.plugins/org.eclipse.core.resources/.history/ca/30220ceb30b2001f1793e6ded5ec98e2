@@ -1,0 +1,51 @@
+package ProblemSolving;
+
+import java.util.Scanner;
+
+public class BinarySearch {
+
+	public static void BSearch(int Arr[],int target){
+		
+		int left=0;
+		int right=Arr.length-1;
+		int middle=(left+right)/2;
+		
+		while(left<right){
+			
+			if(Arr[left]==target){
+				
+				System.out.println(Arr[left]);
+				break;
+				
+			}else if(Arr[right]==target){
+				
+				System.out.println(Arr[right]);
+				break;
+				
+			}else if(Arr[middle]==target){
+				
+				System.out.println(Arr[middle]);
+				break;
+				
+			}else if(Arr[middle]<target){
+				left=middle;
+				middle=(left+right)/2;
+			}else if(Arr[middle]>target){
+				right=middle;
+				middle=(left+right)/2;
+			}
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int Arr1[] = { 8, 10, 8, 36, 5, 17, 3, 83, 1, 4 };
+		Scanner scan = new Scanner(System.in);
+		int tr = scan.nextInt();
+		BSearch(Arr1, tr);
+
+	}
+
+}

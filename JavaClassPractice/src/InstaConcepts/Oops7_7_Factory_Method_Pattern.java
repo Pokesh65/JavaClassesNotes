@@ -37,9 +37,10 @@ public class Oops7_7_Factory_Method_Pattern {
 		//	then we use Os obj of to get methods from Os interface
 		//	
 		FactroyProduct fp=new FactroyProduct();
-		Os os=fp.getInstance("every"); //whatever the string value we give 
+		Os os=fp.getInstance("some"); //whatever the string value we give 
 		//	here based on the string value we will get the Objs of factoryProduct methods
 		os.spec();
+		
 
 	}
 

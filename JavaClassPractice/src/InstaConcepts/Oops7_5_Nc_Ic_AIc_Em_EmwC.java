@@ -19,7 +19,7 @@ import InstaConcepts.nested.nesinner.nesinner2;
 
 	//Outer Class
 	class Outer{
-		int myg=99999;
+		private int myg=99999;
 		void house() {
 			System.out.println("welcome Home");
 		}
@@ -63,7 +63,7 @@ import InstaConcepts.nested.nesinner.nesinner2;
 		int nesval=500;
 		private int nesval1=6969;
 		class nesinner{
-			public void show() {
+			 void show() {
 				
 				//	NestedClass is a nested class within OuterClass. It has access 
 				//	to the outerData field of OuterClass directly.
@@ -143,8 +143,8 @@ import InstaConcepts.nested.nesinner.nesinner2;
 			
 		}
 		public void GetSize(){
-			String Ps=Psize;
-			System.out.println(Ps);
+//			String Ps=Psize;
+			System.out.println(Psize);
 		}
 		
 		

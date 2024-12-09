@@ -1,0 +1,25 @@
+package ProblemSolving;
+
+import java.util.Scanner;
+
+public class StringFirstLetterToChar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+//		Scanner scan=new Scanner(System.in);
+		
+//		String line=scan.nextLine();
+		
+		String line="hello pokesh im you here";
+
+		String []letter=line.split(" ");
+		
+		
+		for(String word:letter){
+			  
+			System.out.println(word);
+		}
+	}
+
+}

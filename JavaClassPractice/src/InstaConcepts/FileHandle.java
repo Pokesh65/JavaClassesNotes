@@ -38,16 +38,16 @@ public class FileHandle {
 		}
 
 		// Get single Single words
-//		Scanner sc=new Scanner(f);
-//		System.out.println(sc.next()); 	//single word ah eduka
-////		
-//		while(sc.hasNext()) {
-//			System.out.println(sc.next());
-//		}
-//		 
-//		if(f.delete()){
-//			System.out.println("Deleted");
-//		}
+		Scanner sw=new Scanner(f);
+		System.out.println(sw.next()); 	//single word ah eduka
+	
+		while(sw.hasNext()) {
+			System.out.println(sw.next());
+		}
+		 
+		if(f.delete()){
+			System.out.println("Deleted");
+		}
 
 	}
 

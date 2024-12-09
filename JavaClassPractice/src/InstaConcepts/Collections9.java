@@ -62,7 +62,7 @@ public class Collections9 {
 		nums.add(212);
 		nums.add(10);
 		nums.add(50);
-		nums.add(60);
+		nums.add(10);
 		nums.add(120);
 		
 		//	print nums value by index
@@ -71,6 +71,7 @@ public class Collections9 {
 		System.out.println("Array List : "+nums); //[212, 10, 50, 60, 120]
 		
 		System.out.println("index value of 10 is : "+nums.indexOf(10)); //index value of 10 is : 1
+
 		for(int n:nums){
 			System.out.println(n);  //212
 									//	10
@@ -118,6 +119,7 @@ public class Collections9 {
 		snums.add(120);
 		snums.add(60);
 		snums.add(120);
+		
 		System.out.println(snums); //[50, 212, 120, 10, 60]
 		System.out.println(snums.hashCode());
 		
@@ -174,7 +176,7 @@ public class Collections9 {
 		
 		
 		System.out.println("All Values Print in for Loop");
-//		for(int i=1;i<=8;i++){
+//		for(int i=1;i<=9;i++){
 //			System.out.println(value.next()); 	//10
 //												//30
 //												//50
@@ -410,14 +412,14 @@ public class Collections9 {
 		pq.add(150);
 		System.out.println(pq); //[2, 6, 8, 20, 40, 200, 70, 100, 150]
 		System.out.println("Head Of the PQ : "+pq.peek()); //Head Of the PQ : 2
-		pq.remove();
+		pq.remove(); //2
 		System.out.println(pq);	//[6, 20, 8, 100, 40, 200, 70, 150]
 		
 		//	iterator will print the value in sorted order
 		System.out.println("\nIterator...");
 		Iterator<Integer> tpq=pq.iterator();
 		while(tpq.hasNext()) {
-			System.out.print(pq.poll() + " "); //6 8 20 40 70 100 150 200 
+			System.out.print(pq.poll()+" "); //6 8 20 40 70 100 150 200 
 			
 		}
 		
